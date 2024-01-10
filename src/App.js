@@ -4,7 +4,9 @@ import Event from "./3-Events/Events";
 import Conditionals from "./4-Conditionals/Conditionals";
 import Lists from "./5-Lists/Lists";
 import UseStateHook from "./6-UseStateHook/UseStateHook";
-import UseEffectHook from "./7-UseEffectHook/UseEffectHook";
+import UseEffectHook from "./7-UserEffectHook/UserEffectHook";
+import Forms from "./8-Forms/Forms";
+import MyFormik from "./8-Forms/FormikYup/MyFormik";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <Conditionals/> */}
       {/* <Lists/> */}
       {/* <UseStateHook/> */}
-      <UseEffectHook/>
+      {/* <UseEffectHook/> */}
+      {/* <Forms/> */}
+      <MyFormik/>
     </div>
   );
 }
