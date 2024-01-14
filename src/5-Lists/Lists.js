@@ -4,6 +4,7 @@ import Garage from './Garage'
 const Lists = () => {
   return (
     <div>
+        <h1>Lists</h1>
         <Garage/>
     </div>
   )

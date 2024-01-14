@@ -8,6 +8,7 @@ const Conditionals = () => {
 
   return (
     <div>
+        <h1>Conditionals</h1>
         <Goal isGoal={true}/>
         <Garage cars={cars}/>
     </div>

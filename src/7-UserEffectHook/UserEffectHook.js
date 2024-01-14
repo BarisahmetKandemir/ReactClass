@@ -50,11 +50,12 @@ const UserEfectHook = () => {
 
   return (
     <div>
-      <h1>I have rendered {count} times</h1>
-      <h1>I have rendered {count2} times</h1>
-      <h1>I have rendered {count3} times</h1>
-      <h1>I have rendered {count4} times</h1>
-      <h1>I have rendered {count5} times</h1>
+      <h1>UseEffectHook</h1>
+      <h2>I have rendered {count} times</h2>
+      <h2>I have rendered {count2} times</h2>
+      <h2>I have rendered {count3} times</h2>
+      <h2>I have rendered {count4} times</h2>
+      <h2>I have rendered {count5} times</h2>
     </div>
   );
 };

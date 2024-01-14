@@ -35,6 +35,7 @@ const Forms = () => {
 
     return (
         <div>
+            <h1>Forms</h1>
             {/* 1. ÖRNEK */}
             <form onSubmit={handleSubmit}>
                 <label>

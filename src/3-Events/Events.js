@@ -18,6 +18,7 @@ const Events = () => {
 
   return (
     <div>
+      <h1>Event</h1>
        <button onClick={shoot}>Take the button1</button>
        <button onClick={()=>shoot2("Goal")}>Take the shoot2</button>
        <button onClick={(event)=>shoot3("Goal",event)}>Take the shoo3</button>

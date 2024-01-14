@@ -40,6 +40,7 @@ const MyFormik = () => {
                 onBlur={handleBlur}
             />
             <br></br>
+            {errors.name && touched.name && <div style={{color:"red"}}>{errors.name}</div>}
 
             {/* Gmail */}
             <input
@@ -50,6 +51,7 @@ const MyFormik = () => {
                 onBlur={handleBlur}
             />
             <br></br>
+            {errors.email && touched.email && <div style={{color:"red"}}>{errors.email}</div>}
 
             {/* Cinsiyet */}
             <label>Male</label>
@@ -101,15 +103,19 @@ const MyFormik = () => {
             <br></br>
             <input name="password" onChange={handleChange} onBlur={handleBlur} />
             <br></br>
+            {errors.password && touched.password && <div style={{color:"red"}}>{errors.password}</div>}
 
             {/* Şifre tekrarı */}
             <label>ConfirmPassword</label>
             <br></br>
             <input name="confirmPassword" onChange={handleChange} onBlur={handleBlur} />
             <br></br>
+            {errors.confirmPassword && touched.confirmPassword && <div style={{color:"red"}}>{errors.confirmPassword}</div>}
 
             {/* Son button */}
-            <button type="submit" >Kayıt Ol</button>
+            <button type="submit"
+            >Kayıt Ol</button>
+            <button type="reset">Reset</button>
         </form>
     );
 };

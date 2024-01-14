@@ -7,6 +7,7 @@ import UseStateHook from "./6-UseStateHook/UseStateHook";
 import UseEffectHook from "./7-UserEffectHook/UserEffectHook";
 import Forms from "./8-Forms/Forms";
 import MyFormik from "./8-Forms/FormikYup/MyFormik";
+import Router from "./9-Router/Router";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <UseStateHook/> */}
       {/* <UseEffectHook/> */}
       {/* <Forms/> */}
-      <MyFormik/>
+      {/* <MyFormik/> */}
+      <Router/>
     </div>
   );
 }

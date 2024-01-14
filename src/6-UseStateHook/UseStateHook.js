@@ -17,6 +17,7 @@ const UseStateHook = () => {
 
   return (
     <div>
+        <h1>UseStateHook</h1>
         <h1>My favorite color is {color}</h1>
         <button type="buton" onClick={() =>setColor("blue")}>Blue buttom</button>
 

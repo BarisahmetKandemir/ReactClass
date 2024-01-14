@@ -32,6 +32,7 @@ const Probs = () => {
     // ÇALIŞ
     return (
         <div>
+            <h1>Probs</h1>
             {myElement}
             {myElement2}
             {myElement3}
