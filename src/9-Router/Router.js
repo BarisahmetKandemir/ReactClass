@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Blogs from './pages/Blogs'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
+import ContacrDetal from './pages/ContactDetal'
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
                    <Route index element={<Home/>}/> 
                    <Route path="Blogs" element={<Blogs/>}/>
                    <Route path="Contact" element={<Contact/>}/>
+                   <Route path="contact/:id" element={<ContacrDetal/>}/>
                    <Route path="*" element={<NoPage/>}/>
                </Route>
             </Routes>

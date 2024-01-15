@@ -8,6 +8,9 @@ import UseEffectHook from "./7-UserEffectHook/UserEffectHook";
 import Forms from "./8-Forms/Forms";
 import MyFormik from "./8-Forms/FormikYup/MyFormik";
 import Router from "./9-Router/Router";
+import UseContext from "./10-UseContectHook/UseContext";
+import CSSstyling from "./11-CSSstyling/CSSstyling";
+import ReduxToolkit from "./12-Reduxtoolkit/ReduxToolkit";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       {/* <UseEffectHook/> */}
       {/* <Forms/> */}
       {/* <MyFormik/> */}
-      <Router/>
+      {/* <Router/> */}
+      {/* <UseContext/> */}
+      {/* <CSSstyling/> */}
+      <ReduxToolkit/>
     </div>
   );
 }
